@@ -13,8 +13,11 @@ ShareX file/image hosting made in php
 - edit the variables below, inside the `index.php` file:
 
  `$domainUrl = 'https://yourdomain.com/';
+ 
  $fileDir = "u/";
+ 
  $fileNameLength = 7;
+ 
  $secretKey = "secretkey";`
  
  - 
