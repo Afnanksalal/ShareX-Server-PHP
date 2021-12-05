@@ -1,16 +1,3 @@
-/ 1. upload script as "index.php"
-
-// 2. change secret key to something random & unguessable
-
-// 3. ensure the files dir exists and is writable to by the web server
-
-// 4. create a new custom destination on Share-x
-//    > request url: https://yourdomain.com/index.php
-//    > file form name: share_X
-//    > arguments: 
-//      - name: secret_key
-//      - value: your secret key
-
 <?php
 $domainUrl = 'https://yourdomain.com/'; //the you want to use for the image server
 $fileDir = "u/"; //the file directory where the images should be saved or used from
