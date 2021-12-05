@@ -12,12 +12,12 @@ ShareX file/image hosting made in php
 - create a directory named `u` in the root directory
 - edit the variables below, inside the `index.php` file:
 
- `$domainUrl = 'https://yourdomain.com/';
+ `$domainUrl = 'https://yourdomain.com/';`
  
- $fileDir = "u/";
+ `$fileDir = "u/";`
  
- $fileNameLength = 7;
+ `$fileNameLength = 7;`
  
- $secretKey = "secretkey";`
+ `$secretKey = "secretkey";`
  
  - 
