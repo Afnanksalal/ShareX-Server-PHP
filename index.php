@@ -18,10 +18,10 @@ function RandomString($length) {
 if (isset($_POST['secret_key'])) {
     if ($_POST['secret_key'] == $secretKey) {
         $filename = RandomString($fileNameLength);
-        $target_file = $_FILES["share_X"]["name"];
+        $target_file = $_FILES["share_x"]["name"];
         $fileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
-        if (move_uploaded_file($_FILES["share_X"]["tmp_name"], $fileDir.$filename.'.'.$fileType)) {
+        if (move_uploaded_file($_FILES["share_x"]["tmp_name"], $fileDir.$filename.'.'.$fileType)) {
             echo $domainUrl.$fileDir.$filename.'.'.$fileType;
         } else {
             echo 'The image failed to upload';
