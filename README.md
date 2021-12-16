@@ -9,7 +9,7 @@ ShareX file/image hosting made in php
 ## 💁‍♀️ How to use
 
 - download the `index.php` file and upload it to your webserver
-- create a directory named `u` in the root directory
+- create a directory named `images` in the root directory
 - edit the variables below, inside the `index.php` file:
 
  `$your_domain_url = 'https://yourdomainhere.com/';`
