@@ -12,13 +12,13 @@ ShareX file/image hosting made in php
 - create a directory named `u` in the root directory
 - edit the variables below, inside the `index.php` file:
 
- `$domainUrl = 'https://yourdomain.com/';`
+ `$your_domain_url = 'https://yourdomainhere.com/';`
  
- `$fileDir = "u/";`
+ `$file_directory = "images/";`
  
- `$fileNameLength = 7;`
+ `$lenght_of_file_name = 12;`
  
- `$secretKey = "secretkey";`
+ `$$secret_key = "secretkey";`
  
  - now its time to edit the ShareX destination
  - for that first headover to `destination` tab in sharex then `custom uploader settings`
@@ -26,5 +26,6 @@ ShareX file/image hosting made in php
  - example: `https://yourdomain.com/index.php`
  - next create a new variable under the body section and name it `secret_key` and in the value section add your secret key
  - example `abcd1234`
- - now scroll down and you will see `file form name` type `share_X` inside it
+ - now scroll down and you will see `file form name` type `images` inside it
  - if you did everything correctly, your server will be up and running properly
+
