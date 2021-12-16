@@ -5,7 +5,7 @@ $lenght_of_file_name = 12; //lenght of the file name
 $secret_key = "secretkey"; //your secret key
 
 function RandomString($length) {
-    $keys = array_merge(range(range('A', 'Z'));
+    $keys = array_merge(range('A', 'Z'));
     $key = "";
     for ($i=0; $i < $length; $i++) {
         $key .= $keys[mt_rand(0, count($keys) - 1)];
