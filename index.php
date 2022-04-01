@@ -1,6 +1,6 @@
 <?php
 $your_domain_url = 'https://share-x-server-php.vercel.app/'; //the Domain Url you want to use for the image server
-$file_directory = "files/"; //the file directory where the images should be saved or used from
+$file_directory = "/"; //the file directory where the images should be saved or used from
 $lenght_of_file_name = 12; //lenght of the file name
 $secret_key = "secretkey"; //your secret key
 
